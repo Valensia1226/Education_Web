@@ -1,0 +1,113 @@
+body{
+    background: url(https://w.forfun.com/fetch/8f/8f84ade8f5c56c6292d642a7b97c6f93.jpeg?w=1470&r=0.5625);
+ }
+ 
+ div{
+    background-color: rgba(240, 248, 255, 0.76);
+    padding: 5px;
+    margin: 20px; 
+ }
+
+h1{
+    color:rgb(28, 5, 161);
+    font-size: 30px;
+    text-align: center;
+ }
+
+h2{
+    text-align: center;
+}
+
+nav{
+    margin: 5px;
+    text-align: center;
+}
+
+nav a{
+    background-color: rgb(185, 187, 187);
+    margin: 3px;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+ }
+
+nav a:hover{
+    background-color: rgba(28, 5, 161, 0.616);
+ }
+
+p{
+    font-size: 20px;
+    text-align:justify;
+}
+
+.First{
+    text-align: right;
+}
+
+.BookIMG1 {
+    width: 309px;
+    height: auto;
+    float: right;
+    margin-right: 140px;
+}
+
+.BookIMG2 {
+    width: 309px;
+    height: auto;
+    float: right;
+    margin-right: 140px;
+    margin-top: 19px;
+}
+
+.BlueDot{
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Books{
+    font-size: 20px;
+}
+
+
+.afterBlock{
+    clear: both;
+}
+
+.ClockIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.Space1{
+    width: 560px;
+}
+
+.Space2{
+    width: 590px;
+}
+
+.DoctorIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.DoctorWho{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+footer{
+    font-size: 20px;
+    text-align: right;
+}
