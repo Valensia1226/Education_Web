@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Подборка подкастов о космосе</title>
+    <title>Чат</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
     <div>
         <header>
             <h1>Космическое будущее человечества</h1>
-            <h2>Подкасты о космосе</h2>
+            <h2>Чат</h2>
         </header>
         <hr>
         <nav>
@@ -22,12 +23,14 @@
         </nav>
         <hr>
         <main>
-            <img class="ClockIMG" src="https://avatars.dzeninfra.ru/get-zen_doc/119173/pub_6321eb45dd1b7e17e7ec42d4_6321ec83a9547a4fda4340e8/scale_1200" alt="песочные часы" width="300">
-            <p>
-                Этот список в процессе разработки! А пока можете посмотреть на красивые изображения с телескопа Хаббл:
-            </p>
-            <img class="Space1" src="https://scitechdaily.com/images/Galaxy-NGC-2442-scaled.jpg" alt="космос1">
-            <img class="Space2" src="https://ic.pics.livejournal.com/kiri2ll/55258202/3646189/3646189_original.jpg" alt="космос2">
+            Чат:<br>
+            <input type="text" placeholder="Ваше сообщение" id="mess">
+            <input type="text" placeholder="Ваше имя" id="name">
+            <button onclick="app()">Отправить</button>
+            <ol>
+                <li id="message1"></li>
+                <li id="message2"></li>
+            </ol>
         </main>
     </div>
     <div>

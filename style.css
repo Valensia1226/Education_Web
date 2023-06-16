@@ -107,6 +107,13 @@ p{
     margin-bottom: 0%;
 }
 
+.Button{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.76);
+    padding: 5px;
+    margin: 20px; 
+}
+
 footer{
     font-size: 20px;
     text-align: right;
